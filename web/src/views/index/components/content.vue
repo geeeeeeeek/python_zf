@@ -4,7 +4,7 @@
       <div class="left-search-item">
         <h4>房屋分类</h4>
         <a-tree :tree-data="contentData.cData" :selected-keys="contentData.selectedKeys" @select="onSelect"
-                style="min-height: 220px;">
+                style="min-height: 210px;">
         </a-tree>
       </div>
       <div class="left-search-item"><h4>配套设施</h4>
